@@ -1,0 +1,49 @@
+### OS X
+.DS_Store
+.localized
+
+### Windows
+Desktop.ini
+*.lnk
+
+### General
+*.jar
+*.war
+*.ear
+*.class
+
+### Spring
+.project
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+*.pydevproject
+local.properties
+application-local.*
+.classpath
+.settings/
+.externalToolBuilders/
+.recommenders/
+.springBeans
+
+### Maven
+target/
+
+## Gradle
+.gradle
+build/
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+# Ignore Gradle GUI config
+gradle-app.setting
+
+### Idea
+*.iml
+.idea/
+
+### Build
+out/
